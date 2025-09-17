@@ -15,6 +15,11 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        "dashboard-blue": "bg-dashboard-blue text-white hover:bg-dashboard-blue/90",
+        "dashboard-orange": "bg-dashboard-orange text-white hover:bg-dashboard-orange/90",
+        "dashboard-green": "bg-dashboard-green text-white hover:bg-dashboard-green/90",
+        "dashboard-indigo": "bg-dashboard-indigo text-white hover:bg-dashboard-indigo/90",
+        "dashboard-purple": "bg-dashboard-purple text-white hover:bg-dashboard-purple/90",
       },
       size: {
         default: "h-10 px-4 py-2",

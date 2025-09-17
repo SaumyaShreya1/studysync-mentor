@@ -57,11 +57,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        dashboard: {
+          blue: "hsl(var(--dashboard-blue))",
+          indigo: "hsl(var(--dashboard-indigo))",
+          orange: "hsl(var(--dashboard-orange))",
+          green: "hsl(var(--dashboard-green))",
+          purple: "hsl(var(--dashboard-purple))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        'dashboard-gradient': 'linear-gradient(135deg, hsl(var(--dashboard-gradient-start)), hsl(var(--dashboard-gradient-end)))',
       },
       keyframes: {
         "accordion-down": {
